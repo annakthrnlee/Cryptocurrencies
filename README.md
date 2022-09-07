@@ -28,13 +28,13 @@ Then I used the K-means algorithm to cluster the cryptocurrencies using the PCA 
   
 <img width="1093" alt="Screen Shot 2022-09-06 at 6 15 28 PM" src="https://user-images.githubusercontent.com/104043438/188761608-03b3dd89-00a8-44b8-bb70-e7eec9337a59.png">
  
- #### Elbow Curve:
+#### Elbow Curve:
  <img width="759" alt="Screen Shot 2022-09-06 at 6 16 21 PM" src="https://user-images.githubusercontent.com/104043438/188761686-eb75df3f-c8cf-469a-a534-449334c60bab.png">
  
- #### New DataFrame:
+#### New DataFrame:
  <img width="1015" alt="Screen Shot 2022-09-06 at 6 16 47 PM" src="https://user-images.githubusercontent.com/104043438/188761722-3109a0e8-512e-4644-b67a-319cb5b69616.png">
 
-### 3D-Scatter plot with the PCA data and the clusters:
+#### 3D-Scatter plot with the PCA data and the clusters:
 <img width="926" alt="Screen Shot 2022-09-06 at 6 17 46 PM" src="https://user-images.githubusercontent.com/104043438/188761821-3bd47a58-9011-4f16-b142-49a9c395bd81.png">
 
 #### Finally, I created a new table with the tradable cryptocurrencies. The total number of tradable cryptocurrencies = 532 
