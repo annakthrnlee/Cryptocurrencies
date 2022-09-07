@@ -16,8 +16,6 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 - PCA: PCA is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. The technique 
 reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.
 
-![image](https://user-images.githubusercontent.com/104043438/188762362-886e9f9a-054b-42c8-bcec-7e1313f67325.png)
-
 ## Results: 
 After removing non-tradable currencies, null values, and the "IsTrading" column, I created a new DataFrame that holds all of the cryptocurrency names. The new DataFrame consisted of 532 rows = 532 tradable cryptocurrencies on the market at that time. 
 
@@ -45,4 +43,8 @@ Then I used the K-means algorithm to cluster the cryptocurrencies using the PCA 
 
 <img width="777" alt="Screen Shot 2022-09-06 at 6 21 00 PM" src="https://user-images.githubusercontent.com/104043438/188762082-e4603327-bd8f-4257-9101-faf24ceb2da6.png">
 
-## Results: 
+## Summary: 
+As you can see from the final 2D-Scatter plot, most of the clusters are overlapping and not quite forming the distincts groups as we had hoped. That's why I also created a 3D graph to help better visualize each group, providing three distinct groups that correspond to the three clusters that we expect the model to break the data into. 
+
+<img width="926" alt="Screen Shot 2022-09-06 at 6 27 58 PM" src="https://user-images.githubusercontent.com/104043438/188762767-711ff7d5-7d6f-4f71-9575-70cc2a0f4d4c.png">
+- You can hover over each unique point to receive information such as each principal component. 
