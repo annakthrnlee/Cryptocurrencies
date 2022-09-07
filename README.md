@@ -19,7 +19,7 @@ reduces the number of dimensions by transforming a large set of variables into a
 ## Results: 
 After removing non-tradable currencies, null values, and the "IsTrading" column, I created a new DataFrame that holds all of the cryptocurrency names. The new DataFrame consisted of 532 rows = 532 tradable cryptocurrencies on the market at that time. 
 
-<img width="751" alt="Screen Shot 2022-09-06 at 6 10 33 PM" src="https://user-images.githubusercontent.com/104043438/188761116-4cbaac9a-705d-42d6-845e-bda4cf50168f.png"
+<img width="599" alt="Screen Shot 2022-09-06 at 6 33 25 PM" src="https://user-images.githubusercontent.com/104043438/188763263-d1085dc7-e9b5-41ab-acfd-a6abce595684.png">
 
 Then I used the K-means algorithm to cluster the cryptocurrencies using the PCA data, where the following steps have been completed:
 - An elbow curve was created using hvPlot to find the best value for K.
