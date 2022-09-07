@@ -47,4 +47,4 @@ Then I used the K-means algorithm to cluster the cryptocurrencies using the PCA 
 As you can see from the final 2D-Scatter plot, most of the clusters are overlapping and not quite forming the distincts groups as we had hoped. That's why I also created a 3D graph to help better visualize each group, providing three distinct groups that correspond to the three clusters that we expect the model to break the data into. 
 
 <img width="926" alt="Screen Shot 2022-09-06 at 6 27 58 PM" src="https://user-images.githubusercontent.com/104043438/188762767-711ff7d5-7d6f-4f71-9575-70cc2a0f4d4c.png">
-- You can hover over each unique point to receive information such as each principal component. 
+- The 3D scatter plot can be rotated using the mouse to click and drag using the scroll wheel. Try hovering over a unique point to receive information such as each principal component. 
