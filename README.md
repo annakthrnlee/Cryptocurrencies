@@ -17,11 +17,11 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.
 
 ## Results: 
-After removing non-tradable currencies, null values, and the "IsTrading" column, I created a new DataFrame that holds all of the cryptocurrency names. The new DataFrame consisted of 532 rows = 532 tradable cryptocurrencies on the market at that time. 
+After removing non-tradable currencies, null values, and the "IsTrading" column, I created a new DataFrame that holds all of the crypto names. The new DataFrame consisted of 532 rows = 532 tradable cryptocurrencies on the market at that time. 
 
 <img width="599" alt="Screen Shot 2022-09-06 at 6 33 25 PM" src="https://user-images.githubusercontent.com/104043438/188763263-d1085dc7-e9b5-41ab-acfd-a6abce595684.png">
 
-Then I used the K-means algorithm to cluster the cryptocurrencies using the PCA data, where the following steps have been completed:
+Then I used the K-means algorithm to cluster the cryptocurrencies using the PCA data. The following steps took place:
 - An elbow curve was created using hvPlot to find the best value for K.
 - Predictions were made on the K clusters of the cryptocurrencies’ data.
 - A new DataFrame was created with the same index as the crypto_df DataFrame and had the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class.
