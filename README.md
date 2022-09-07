@@ -11,6 +11,13 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 - Software: Python 3.9.7 and Jupyter Notebook
 - Data: crpto_data.csv
 
+## Definitions:
+- K-Means: The K-means algorithm groups the data into K clusters, where belonging to a cluster is based on some similarity or distance measure to a centroid.
+- PCA: PCA is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. The technique 
+reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.
+
+![image](https://user-images.githubusercontent.com/104043438/188762362-886e9f9a-054b-42c8-bcec-7e1313f67325.png)
+
 ## Results: 
 After removing non-tradable currencies, null values, and the "IsTrading" column, I created a new DataFrame that holds all of the cryptocurrency names. The new DataFrame consisted of 532 rows = 532 tradable cryptocurrencies on the market at that time. 
 
@@ -20,7 +27,7 @@ Then I used the K-means algorithm to cluster the cryptocurrencies using the PCA 
 - An elbow curve was created using hvPlot to find the best value for K.
 - Predictions were made on the K clusters of the cryptocurrencies’ data.
 - A new DataFrame was created with the same index as the crypto_df DataFrame and had the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class.
-
+  
 <img width="1093" alt="Screen Shot 2022-09-06 at 6 15 28 PM" src="https://user-images.githubusercontent.com/104043438/188761608-03b3dd89-00a8-44b8-bb70-e7eec9337a59.png">
  
  #### Elbow Curve:
@@ -38,3 +45,4 @@ Then I used the K-means algorithm to cluster the cryptocurrencies using the PCA 
 
 <img width="777" alt="Screen Shot 2022-09-06 at 6 21 00 PM" src="https://user-images.githubusercontent.com/104043438/188762082-e4603327-bd8f-4257-9101-faf24ceb2da6.png">
 
+## Results: 
